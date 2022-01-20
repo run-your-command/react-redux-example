@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.Home {
+  text-align: center;
+}
+
+.Home-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Home-name {
+  /* margin-top: -100px; */
+  margin-top: 30px;
+}
+.Home-title {
+  margin-top: 50px;
+}
+.box-conatiner {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  margin-top: 50px;
+  background-color: #282c34;
+}
+
+.box-input {
+  width: 100px;
+  height: 60px;
+  border: none;
+  text-align: center;
+  font-weight: 200;
+  font-size: 30px;
+  color: #282c34;
+}
+
+.box-add {
+  height: 60px;
+  width: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  color: #282c34;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  background-color: #dfe6f2;
+}
+.box-add:hover {
+  transition: ease 0.3s;
+  background-color: aquamarine;
+}
+.box-sub {
+  height: 60px;
+  width: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  color: #282c34;
+  transition: ease 0.3s;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: #dfe6f2;
+}
+.box-sub:hover {
+  transition: ease 0.3s;
+  background-color: aquamarine;
+}
+.box-clear {
+  height: 50px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  margin-top: 30px;
+  background-color: #282c34;
+}
+.box-clear-btn {
+  height: 50px;
+  width: 100px;
+  align-items: center;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  transition: ease 0.3s;
+  overflow: hidden;
+  background-color: #dfe6f2;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.box-clear-title {
+  height: 40px;
+  width: 80px;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  transition: ease 0.3s;
+  color: #282c34;
+}
+.box-clear-arrow {
+  height: 25px;
+  width: 20px;
+  padding-top: 25px;
+  background-color: rgba(0, 0, 0, 0);
+  transition: ease 0.3s;
+  font-size: 22px;
+  margin-left: -8px;
+  color: #282c34;
+}
+.box-clear:hover .box-clear-btn {
+  background-color: aquamarine;
+}
+.box-clear-btn:hover .box-clear-arrow {
+  transition: ease 0.3s;
+  margin-left: -3px;
+}
