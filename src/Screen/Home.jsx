@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import "../App.js";
 import { FirstName, LastName } from "../App.js";
@@ -7,7 +7,7 @@ import { incNumber, decNumber, clearNumber } from "../lib/actions/Actions";
 const icon = require("/Users/rishuchowdhary/Downloads/TRANSFER_TO_MAC/app_checking/react-redux/react-redux-example/src/assets/top_log.png");
 
 const Home = (props) => {
-  const [getName, setName] = useState("Guest");
+  const [getName] = useState("Guest");
 
   // useEffect(() => {
   //   const name = prompt("Please enter your name");
