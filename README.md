@@ -1,10 +1,13 @@
+##### *Upcoming Changes
+- Redux Toolkit (Added Soon)
+
 # react-redux-example
 
 <!-- Home message -->
 
 Example how to use Redux with React
 
-Please Checkout the website : https://hirishu10.github.io/react-redux-example/
+Please Checkout the website : [https://run-your-command.github.io/react-redux-example/](https://run-your-command.github.io/react-redux-example/)
 
 <!-- Contents -->
 
